@@ -9,4 +9,4 @@ ________________________________________________________________________________
 
 Команда для установки библиотек, требуемых для запуска тестов: python -m pip install -r requirements.txt
 
-Команда для запуска теста: only_test_task\test_register_project_form.py::<имя тестового метода>
+Команда для запуска теста: pytest only_test_task\test_register_project_form.py::<имя тестового метода>
