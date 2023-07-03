@@ -1,4 +1,4 @@
-# only_test_task
+# Тестовое задание Only.Digital
 Задание: 
 
 Написать автотест для анкеты https://only.digital/projects#brief 
@@ -9,4 +9,12 @@ ________________________________________________________________________________
 
 Команда для установки библиотек, требуемых для запуска тестов: python -m pip install -r requirements.txt
 
-Команда для запуска теста: pytest only_test_task\test_register_project_form.py::<имя тестового метода>
+Команда для запуска теста через терминал Git Bash: pytest only_test_task/test_register_project_form.py::<имя тестового метода>
+
+______________________________________________________________________________________________________
+# Тестовые методы
+test_register_project_form.py::test_fill_out_form__positive - проверка работы страницы, отправки формы и отображения сообщения об успешной отправке формы
+
+test_register_project_form.py::test_fill_out_form__negative - проверка отображения сообщений обязательности заполнения полей
+
+test_register_project_form.py::test_check_validation_message - проверка отображения сообщений валидации полей
